@@ -1,0 +1,16 @@
+{
+    "require": {
+        "typo3/cms": "~8.7",
+        "helhum/typo3-console": "^4.6.1",
+        "roave/security-advisories": "dev-master"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "web"
+        },
+        "helhum/typo3-console": {
+            "install-extension-dummy": "0"
+        }
+    }
+}
