@@ -2,7 +2,8 @@
     "require": {
         "typo3/cms": "~8.7",
         "helhum/typo3-console": "^4.6.1",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "t3g/blog": "^8.7"
     },
     "extra": {
         "typo3/cms": {
@@ -12,5 +13,8 @@
         "helhum/typo3-console": {
             "install-extension-dummy": "0"
         }
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^1.1"
     }
 }

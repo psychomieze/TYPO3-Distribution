@@ -6,3 +6,4 @@ web/index.php
 web/typo3temp/
 /vendor/
 .idea/
+web/typo3conf/ext/blog
